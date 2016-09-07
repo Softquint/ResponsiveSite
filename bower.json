@@ -1,0 +1,19 @@
+{
+  "name": "ResponsiveSite",
+  "description": "Responsive Website",
+  "main": "index.js",
+  "authors": "Fareed Ahmed",
+  "license": "ISC",
+  "homepage": "https://github.com/Softquint/ResponsiveSite",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

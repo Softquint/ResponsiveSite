@@ -1,0 +1,17 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "\"Responsive Website\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"Fareed Ahmed\"",
+  "license": "ISC",
+  "script": {
+    "postinstall": "bower install"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
