@@ -2,3 +2,214 @@ body{
 	font : 12px/14px 'Roboto', sans-serif;
 	color: #000000;
 }
+.header-section , .footer-section{
+	background: url('../img/bg-repeate.jpg') repeat;
+}
+.social-medai a{
+	display: inline-block;
+	margin-right: 5px;
+	line-height: 55px;
+	vertical-align: middle;
+}
+img{
+	max-width: 100%;
+}
+.bannerTop img ,.bannerMid img{
+	width:100%;
+}
+.album-relase-section{
+	padding: 30px 0;
+}
+.album-relase-section ul li{
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 36px;
+}
+.album-relase-section  .left-side{
+	padding: 70px 20px 60px 0;
+}
+.album-relase-section  .right-side{
+	padding: 60px 0 60px 20px;
+}
+.album-relase-section  .left-side span{
+	display: block;
+	text-align: right;
+}
+.album-relase-section  .left-side span:first-child{
+	color: #a73735;
+	font-size: 56px;
+	font-weight: 300;
+	line-height: 56px;
+	text-transform: uppercase;
+}
+.album-relase-section  .left-side span:nth-child(2){
+	color: #a73735;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 56px;
+	text-transform: uppercase;
+}
+.album-relase-section  .left-side span:nth-child(3),
+.album-relase-section  .left-side span:nth-child(4){
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 22px;
+}
+.album-detail h3{
+	font-weight: 300;
+	font-size: 20px;
+}
+.album-detail p{
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 28px;
+}
+.album-themes{
+	/*background: url('../img/banner-bg.jpg') repeat;*/
+	background: #0f1217;
+	min-height: 300px;
+}
+.album-themes h3,  .album-themes p{
+	color: #ffffff;
+	font-weight: 300;
+	font-size: 18px;
+	text-align: center;
+}
+.album-themes p{
+	font-size: 14px;
+	line-height: 28px;
+	margin-top: 60px;
+	text-align: center;
+}
+.album-themes p img{
+	width: 25px;
+	margin-top: 15px;
+}
+.getintouch{
+	padding: 10px 0 30px 0px;
+	background: #ae3638;
+}
+.getintouch h3{
+	font-size: 32px !important;
+	margin: 20px 0;
+}
+.getintouch h3, .getintouch p{
+	color: #ffffff;
+	font-weight: 100;
+	font-size: 18px;
+}
+.contactus
+{
+	background: url('../img/banner3.jpg') no-repeat;
+	background-size: cover;
+	padding: 30px 15px;
+}
+.contactus .form-group{
+	margin: 10px 0;
+}
+.contactus .form-group input ,.contactus .form-group textarea{
+	border: 3px solid #e8e0de;
+}
+.contactus .form-group button{
+	color:#ffffff;
+	background: #de4b3b;
+	width: 100%;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+}
+.contactus .form-group button:focus{
+	outline:none;
+}
+.mobile-social-media{
+	padding: 15px;
+	background: #444444;
+}
+
+/* Media Query for Mobile Device*/
+@media only screen and (max-width: 640px) {
+	.album-relase-section .left-side {
+	    padding: 30px 20px 30px 20px;
+	    text-align: center;
+	}
+	.album-relase-section  .left-side span , .album-detail h3 , .album-detail p{
+		text-align: center;
+	}
+	.album-relase-section .right-side {
+	    padding: 0px 20px 30px 20px;
+	}
+	.album-relase-section ul li{
+		text-align: center;
+	}
+	.album-detail , .album-themes{
+		padding: 30px 0;
+	}
+	.album-detail h3{
+		font-size: 36px;
+		font-weight: 100;
+	}
+	.album-detail p{
+		font-size: 22px;
+		line-height:30px;
+
+	}
+	.album-detail div{
+		margin-bottom: 30px;
+	}
+	.album-detail div:last-child{
+		margin-bottom: 0;
+	}
+	.album-themes h3 {
+		font-size: 30px;
+		line-height:30px;
+		font-weight: 100;
+	}
+	.album-themes p{
+		font-size: 18px;
+		line-height:30px;
+		font-weight: 100;
+	}
+}
+@media only screen and (min-width: 1280px) {
+	.album-relase-section  .left-side span:first-child,
+	.album-relase-section  .left-side span:nth-child(2){
+		font-size: 100px;
+		line-height: 90px;
+	}
+	.album-relase-section  .left-side span:nth-child(3), .album-relase-section  .left-side span:nth-child(4){
+		font-size: 42px;
+		line-height: 42px;
+		font-weight: 300;
+	}
+	.album-relase-section ul li {
+	    font-size: 36px;
+	    font-weight: 300;
+	    line-height: 60px;
+	}
+	.album-detail h3{
+		font-size: 34px;
+	}
+	.album-detail p{
+		font-size: 24px;
+	}
+	.album-themes , .album-detail{
+		padding: 30px 0;
+	}
+	.album-themes h3{
+		font-size: 28px;
+	}
+	.album-themes p{
+		font-size: 18px;
+		line-height: 38px;
+	}
+	.getintouch h3{
+		font-size: 42px !important;
+	}
+	.getintouch p{
+		font-size: 24px;
+	}
+	.contactus .form-group input, .contactus .form-group textarea , .contactus .form-group button{
+		font-size: 24px;
+		height: 60px;
+	}
+}
